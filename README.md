@@ -28,6 +28,16 @@ The Boilerplate can be installed directly into your plugins folder "as-is". You 
 
 It's safe to activate the plugin at this point. Because the Boilerplate has no real functionality there will be no menu items, meta boxes, or custom post types added until you write the code.
 
+### Renamer Script
+
+Included is a script that will automatically rename the key project files - this is only tested on MacOS. It may work on Linux, but definitely not on windows. To use it:
+
+```
+./renamer.sh
+```
+
+Then just follow the prompts.
+
 ## WordPress.org Preparation
 
 The original launch of this version of the boilerplate included the folder structure needed for using your plugin on WordPress.org. That folder structure has been moved to its own repo here: https://github.com/DevinVinson/Plugin-Directory-Boilerplate
